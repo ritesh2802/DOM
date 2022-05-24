@@ -1,0 +1,138 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.toolbox-cont{
+    height:4 rem;
+    background-color: grey;
+    display:flex;
+    align-items:center;
+}
+.toolbox-cont>*{
+    margin-left:4rem;
+
+}
+.toolbox-color-cont{
+    height:3.5rem;
+    width:18rem;
+    background-color:red;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.color{
+    height:1.5rem;
+    width:3rem;
+}
+.lightPink{
+    background-color: lightpink;
+}
+.lightBlue{
+    background-color: lightblue;
+}
+.lightGreen{
+    background-color: lightgreen;
+}
+.Yellow{
+    background-color: yellow;
+}
+
+.action-btn-cont{
+    height:2.5rem;
+    width:8rem;
+    background-color:blue;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.action-btn-cont>*{
+    font-size:2rem;
+    color:azure;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+    width:50%;
+}
+.toolbox-color-cont>*:hover,.action-btn-cont>*:hover{
+    background-color: aqua;
+}
+
+
+.modal-cont{
+    height:50vh;
+    width:45vw;
+    top:calc((100vh - 50vh)/2);
+    left:calc((100vw - 45vw)/2);
+    background-color:lightblue ;
+    position:absolute;
+    display:flex;
+    display:none;
+}
+
+textarea{
+    height:100%;
+    width:75%;
+    outline: none;
+    resize:none;
+    border:none;
+    background-color:lightcoral;
+    font-size:2rem;
+}
+
+.priority-color-cont{
+    height:100%;
+    width:25%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4b4b4b;
+  }
+  
+  .priority-color{
+    height: 10%;
+    width:38%;
+  }
+
+  .active{
+      border:5px solid red;
+  }
+
+  .ticket-cont{
+      height:12rem;
+      width:18rem;
+      background-color: #f1f2f6;
+  }
+  .ticket-color{
+      height:1rem;
+      /* background-color:black; */
+
+  }
+  .ticket-id{
+      height:2rem;
+      background-color:red;
+  }
+  .task-area{
+      height:calc(100% - 1rem - 2rem);
+      font-size:1.5rem;
+      outline:none;
+      overflow-wrap: break-word;
+
+  }
+  
+    .main-cont{
+        display:flex;
+        gap:2rem;
+        justify-content: center;
+        padding: 2rem;
+        flex-wrap: wrap;
+      }
+      
+  
